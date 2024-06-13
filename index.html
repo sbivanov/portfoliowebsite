@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <link rel="stylesheet" href="assets/style.css">
+        <link rel="icon" type="image/x-icon" href="{assets/favicon.png">
+        <title>Портфолио</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+        <meta name="description" content="Портфолио">
+        <meta name="keywords" content="portfolio, planning, urban planning, university">
+    </head>
+    <body>
+        <div class="titlebox">
+            <nav>
+                <ul class="navigationbuttons">
+                    <li class="menubuttonselected">
+                        <p class="align">Начало</p>
+                    </li>
+                    <li class="menubutton">
+                        <p class="align"><a href="pages/projects.html">Проекти</a></p>
+                    </li>
+                </ul>
+            </nav>
+            <h1 class="header1">Портфолио на Симеон Иванов</h1>
+        </div>
+        <div class="paragraph">
+            <p>Казвам се Симеон Иванов. Аз съм студент по урбанизъм I-ви курс в УАСГ.</p>
+            <h2>Образование</h2>
+            <p>Средно; студент по Урбанизъм, бакалавърска степен, УАСГ</p>
+            <h2>Умения</h2>
+            <ul>
+                <li>Чужди езици: английски (много добре), немски (средно)</li>
+            </ul>
+            <h2>Технически умения</h2>
+            <ul>
+                <li>Програмни езици: на основно ниво C++, Java, Python;</li>
+                <li>HTML, CSS</li>
+                <li>Умея да работя с Adobe Photoshop и Inkscape</li>
+                <li>AutoCAD</li>
+            </ul>
+            <h2>Проекти</h2>
+            <a class="links" href="pages/projects.html">тук</a>
+            <h2>Контакти</h2>
+            <ul>
+                <li>simeon.b.ivanov0@gmail.com</li>
+            </ul>
+            
+        </div>
+        <!--The navigation menu-->
+<!--
+        <nav>
+            <ul class="navigationmenu">
+                <li class=navlogo>
+                    <img src="{% if page.dir == "/pages/" %}../{% endif %}assets/logo.png" alt="LOGO">
+                </li>
+                <li class="navbutton">
+                    <a class="navlink" href="{% if page.dir == "/pages/" %}../{% endif %}index.html">Home</a>
+                </li>
+                <li class="navbutton">
+                    <p class="navlink">Articles</p>
+                    <div class="dropdown">
+                        <ul>
+                            {% for item in site.data.navigation %}
+                            <li class="dropbutton">
+                                <a class="navlink" href="{% if page.dir != "/pages/" %}pages/{% endif %}{{ item.link }}.html">{{ item.name }}</a>
+                            </li>
+                            {% endfor %}
+                        </ul>
+                    </div>
+                </li>
+                <li class="navbutton">
+                    <a class="navlink" href="{% if page.dir == "/pages/" %}../{% endif %}about.html">About</a>
+                </li>
+                <li class="navbutton">
+                    <a class="navlink" href="{% if page.dir == "/pages/" %}../{% endif %}news.html">News</a>
+                </li>
+            </ul>
+        </nav>
+-->
+        <!--The side panels-->
+    </body>
+</html>

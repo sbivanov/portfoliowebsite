@@ -1,0 +1,98 @@
+@font-face {
+    font-family:"Ossem";
+    src:url(fonts/Ossem-Rough.otf);
+    font-style:normal;
+}
+
+body{
+    margin:0;
+    padding:0;
+    width:100%;
+    height:100%;
+    line-height:1.5;
+    color:#f0fff0;
+    background-color:#f0fff0;
+    word-wrap: break-word;
+    font-family:"Ossem";
+    box-sizing:border-box;
+}
+
+nav{
+    margin:0px;
+}
+
+.navigationbuttons{
+    list-style-type:none;
+    width:250px;
+    margin:0px;
+    padding:0px;
+}
+
+.menubutton, .menubuttonselected{
+    display:inline-block;
+    padding:0px 15px;
+    height:72px;
+    float:left;
+}
+
+.menubuttonselected{
+    color:#002000;
+    background-color:#f0fff0;
+}
+
+.menubutton{
+    color:#f0fff0;
+    background-color:#165b1a;
+}
+
+.align{
+    vertical-align:text-bottom;
+    font-size:20px;
+}
+
+.align a{
+    text-decoration:none;
+    color:#f0fff0;
+}
+
+.align a:hover{
+    text-decoration:none;
+    color:yellow;
+}
+
+.titlebox{
+    width:100%;
+    padding:auto;
+    background-color:#165b1a;
+    text-align:center;
+}
+
+.header1{
+    font-size:48px;
+    margin:0% 25%;
+}
+
+.paragraph{
+    margin:100px;
+    padding:50px;
+    background-color:#002000;
+    font-size:24px;
+    box-shadow:0px 0px 1px 1px, 0px 0px 2px -1px black ;
+}
+
+.links{
+    color:skyblue;
+}
+
+.links:visited{
+    color:hotpink;
+}
+
+.projectbox{
+    padding:25px 400px;
+}
+
+.project{
+    margin:auto;
+    width:100%;
+}
