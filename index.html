@@ -24,59 +24,30 @@
             <h1 class="header1">Портфолио на Симеон Иванов</h1>
         </div>
         <div class="paragraph">
-            <p>Казвам се Симеон Иванов. Аз съм студент по урбанизъм I-ви курс в УАСГ.</p>
+            <p>Казвам се Симеон Иванов. Аз съм студент по урбанизъм II-ри курс в УАСГ.</p>
             <h2>Образование</h2>
-            <p>Средно; студент по Урбанизъм, бакалавърска степен, УАСГ</p>
+            <p>Завършено средно; студент по Урбанизъм, бакалавърска степен, УАСГ</p>
             <h2>Умения</h2>
             <ul>
                 <li>Чужди езици: английски (много добре), немски (средно)</li>
             </ul>
             <h2>Технически умения</h2>
             <ul>
-                <li>Програмни езици: на основно ниво C++, Java, Python;</li>
-                <li>HTML, CSS</li>
-                <li>Умея да работя с Adobe Photoshop и Inkscape</li>
+                <li>GIS софтуер: QGIS</li>
                 <li>AutoCAD</li>
+                <li>Adobe Photoshop и Inkscape</li>
+                <li>Програмни езици: на основно ниво Python, C++, Java</li>
+                <li>HTML, CSS</li>
             </ul>
             <h2>Проекти</h2>
             <a class="links" href="pages/projects.html">тук</a>
+            <h2>Други</h2>
+            <p>Участник в AEC Hackathon Sofia 2024</p>
             <h2>Контакти</h2>
             <ul>
                 <li>simeon.b.ivanov0@gmail.com</li>
             </ul>
             
         </div>
-        <!--The navigation menu-->
-<!--
-        <nav>
-            <ul class="navigationmenu">
-                <li class=navlogo>
-                    <img src="{% if page.dir == "/pages/" %}../{% endif %}assets/logo.png" alt="LOGO">
-                </li>
-                <li class="navbutton">
-                    <a class="navlink" href="{% if page.dir == "/pages/" %}../{% endif %}index.html">Home</a>
-                </li>
-                <li class="navbutton">
-                    <p class="navlink">Articles</p>
-                    <div class="dropdown">
-                        <ul>
-                            {% for item in site.data.navigation %}
-                            <li class="dropbutton">
-                                <a class="navlink" href="{% if page.dir != "/pages/" %}pages/{% endif %}{{ item.link }}.html">{{ item.name }}</a>
-                            </li>
-                            {% endfor %}
-                        </ul>
-                    </div>
-                </li>
-                <li class="navbutton">
-                    <a class="navlink" href="{% if page.dir == "/pages/" %}../{% endif %}about.html">About</a>
-                </li>
-                <li class="navbutton">
-                    <a class="navlink" href="{% if page.dir == "/pages/" %}../{% endif %}news.html">News</a>
-                </li>
-            </ul>
-        </nav>
--->
-        <!--The side panels-->
     </body>
 </html>
