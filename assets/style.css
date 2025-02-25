@@ -14,6 +14,7 @@
     --shadow: black;
     --shadow2: #169b1a;
     --return: #169b1a;
+    --highlight: #f0f020;
 }
 
 body{
@@ -33,7 +34,7 @@ body{
     /* Mobile */
     .menubutton, .menubuttonselected{
         padding:0px 5px;
-        height:24px;
+        height:18px;
     }
     
     .align{
@@ -41,16 +42,19 @@ body{
         margin:3px 0px;
     }
     .header1{
-        font-size:16px;
-        margin:0% 20%;
+        font-size:12px;
+        margin:0% 25%;
     }
     .paragraph{
-        margin:10px 100px;
+        margin:10px 50px;
         padding:10px;
         font-size:10px;
     }
     .projectbox{
         padding:10px 10%;
+    }
+    .paragraph ul {
+        padding-left: 10%;
     }
 }
 @media only screen and (min-width:561px) and (max-width:1285px){
@@ -197,4 +201,8 @@ a:visited{
     color:var(--text);
     text-decoration-line: underline;
     font-size: 24px;
+}
+
+.highlight {
+    color:var(--highlight); 
 }
