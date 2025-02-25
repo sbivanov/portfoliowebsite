@@ -29,21 +29,100 @@ body{
     box-sizing:border-box;
 }
 
+@media only screen and (max-width:560px){
+    /* Mobile */
+    .menubutton, .menubuttonselected{
+        padding:0px 5px;
+        height:24px;
+    }
+    
+    .align{
+        font-size:10px;
+        margin:3px 0px;
+    }
+    .header1{
+        font-size:16px;
+        margin:0% 20%;
+    }
+    .paragraph{
+        margin:10px 100px;
+        padding:10px;
+        font-size:10px;
+    }
+    .projectbox{
+        padding:10px 10%;
+    }
+}
+@media only screen and (min-width:561px) and (max-width:1285px){
+    /* Medium size */
+    .menubutton, .menubuttonselected{
+        padding:0px 5px;
+        height:36px;
+    }
+    .align{
+        font-size:12px;
+        margin:9px 0px;
+    }
+    .header1{
+        font-size:24px;
+        margin:0% 20%;
+    }
+    .paragraph{
+        margin:25px 150px;
+        padding:25px;
+        font-size:12px;
+    }
+    .projectbox{
+        padding:25px 10%;
+    }
+    .projectbox img{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        max-width: 500px;
+    }
+}
+@media only screen and (min-width:1286px){
+    /* Desktop */
+    .menubutton, .menubuttonselected{
+        padding:0px 15px;
+        height:72px;
+    }
+    .align{
+        font-size:20px;
+    }
+    .header1{
+        font-size:48px;
+        margin:0% 25%;
+    }
+    .paragraph{
+        margin:50px 300px;
+        padding:50px;
+        font-size:20px;
+    }
+    .projectbox{
+        padding:25px;
+    }
+    .projectbox img{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 500px;
+    }
+}
+
 nav{
     margin:0px;
 }
 
 .navigationbuttons{
     list-style-type:none;
-    width:250px;
     margin:0px;
     padding:0px;
 }
 
 .menubutton, .menubuttonselected{
     display:inline-block;
-    padding:0px 15px;
-    height:72px;
     float:left;
 }
 
@@ -57,9 +136,12 @@ nav{
     background-color:var(--title);
 }
 
+.menubutton a:visited{
+    color:var(--textdark);
+}
+
 .align{
     vertical-align:text-bottom;
-    font-size:20px;
 }
 
 .align a{
@@ -80,29 +162,25 @@ nav{
     box-shadow:0px 0px 3px 1px var(--shadow), 0px 0px 5px -1px var(--shadow2);
 }
 
-.header1{
-    font-size:48px;
-    margin:0% 25%;
-}
-
 .paragraph{
-    margin:50px 300px;
-    padding:50px;
     background-color:var(--divbackground);
-    font-size:20px;
     box-shadow:0px 0px 3px 1px var(--shadow), 0px 0px 5px -1px var(--shadow2);
 }
 
-.links{
+a{
     color:lightblue;
+}
+
+a:visited{
+    color:hotpink;
+}
+
+.links{
+    color:lightblue;`
 }
 
 .links:visited{
     color:hotpink;
-}
-
-.projectbox{
-    padding:25px 200px;
 }
 
 .project{
